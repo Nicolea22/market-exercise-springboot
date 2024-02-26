@@ -1,4 +1,4 @@
-# sprint-boot-app
+# SPRING-BOOT-APP
 
 Para ejecutar la aplicación:
 # Windows y Linux
