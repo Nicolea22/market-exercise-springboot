@@ -1,0 +1,17 @@
+resilience4j.ratelimiter:
+  instances:
+    marketService:
+      limitForPeriod: 1100
+      limitRefreshPeriod: 1s
+      timeoutDuration: 1s
+      registerHealthIndicator: true
+      eventConsumerBufferSize: 100
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always
